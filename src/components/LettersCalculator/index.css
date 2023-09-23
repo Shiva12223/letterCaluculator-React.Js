@@ -1,0 +1,68 @@
+/* Write your code here. */
+
+.bg-container {
+  background-image: linear-gradient(#1d976c, #93f9b9);
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.img {
+  height: 100%;
+  width: 100%;
+}
+.word-count-container {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.heading {
+  color: #fff;
+}
+.tag {
+  color: #fff;
+}
+.user-input {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+  outline: none;
+}
+.letter-count {
+  color: #219a6f;
+  font-weight: bold;
+  font-size: 25px;
+}
+.letter-counter-container {
+  background-color: #ffff;
+  border-radius: 5px;
+  height: 50px;
+  width: 250px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
